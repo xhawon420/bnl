@@ -308,7 +308,7 @@ def banner():
 ║ [😆] CODED BY : Shawon    
 ║ [😕] GITHUB   : Shawon-404            
 ║ [😕] GITHUB   : Milon-404
-║ [❤️] VERSION  : 0.0.1      
+║ [❤️] VERSION  : 0.0.2      
         WhatsApp → 01887727274
         WhatsApp → 01863700546
 ║ HACKED   : \033[1;32mSC.Shawon \033[1;37m              
@@ -1212,9 +1212,9 @@ def m5(idf,pw):
 # INDIA X PAKISTAN -- MAIN DEF #
 
 if __name__=='__main__':
-  try:os.mkdir('Shawon-HASAN' )
+  try:os.mkdir('Shawon-YT' )
   except:pass
-  try:os.mkdir('QUEEN-TISHA')
+  try:os.mkdir('Shawon-YT')
   except:pass
 #  b2()
 #  mainx() 
