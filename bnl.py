@@ -308,7 +308,7 @@ def banner():
 ║ [😆] CODED BY : Shawon    
 ║ [😕] GITHUB   : Shawon-404            
 ║ [😕] GITHUB   : Milon-404
-║ [❤️] VERSION  : 0.0.5    
+║ [❤️] VERSION  : 1.0.5   
         WhatsApp → 01887727274
         WhatsApp → 01863700546
 ║ HACKED   : \033[1;32mSC.Shawon \033[1;37m              
@@ -316,7 +316,7 @@ def banner():
     print(f"""{GREEN}    SELL DONE{P}
  {K}[{H}√{K}]{P} This message is for my haters 
  {K}[{H}√{K}]{P}       {H} The Shawon Is BACK 
- {K}[{H}√{K}]{P} Successfully Update Done {H}0.0.5""");print(led)
+ {K}[{H}√{K}]{P} Successfully Update Done {H}1.0.5""");print(led)
 
 
 c0=('ht')
