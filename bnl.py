@@ -1,6 +1,6 @@
 ###----------[ IMPORT MODULE ]----------###
 from os import path
-from os import system as Love_Tisha
+from os import system asLove
 import requests,json,os,sys,random,datetime,time,re,platform,string,uuid,base64
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
 from concurrent.futures import ThreadPoolExecutor as tred
